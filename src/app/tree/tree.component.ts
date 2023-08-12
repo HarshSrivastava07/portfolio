@@ -12,7 +12,7 @@ declare var createTree: any;
 export class TreeComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit(): void {
     new createTree();
   }

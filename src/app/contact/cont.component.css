@@ -54,7 +54,8 @@
   }
 
   .email:hover {
-    transform: translateY(-1px);
+    transform: translateY(-3px);
+    color: gray;
   }
  .email{
     text-decoration: none;

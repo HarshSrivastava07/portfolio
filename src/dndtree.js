@@ -11,130 +11,62 @@ function createTree() {
 
         treeData =
         {
-            "name": "interests",
+            "name": "Skills",
             "children": [
                 {
-                    "name": "art",
+                    "name": "Full Stack Development",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Angular" },
+                        { "name": "Spring Boot" },
+                        { "name": "NodeJs" },
+                        {"name": "REST APIs"}
                     ]
                 },
                 {
-                    "name": "sports",
+                    "name": "Languages",
                     "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
+                            { "name": "C++" },
+                            { "name": "Java" },
+                            {"name": "Python"}
                     ]
                 },
                 {
-                    "name": "sports",
+                    "name": "DataBases",
                     "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                }
-                , {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
+                            {"name": "Non Relational DataBase",
+                        "children":[
+                            {"name": "MongoDB"}
+                        ]},
+                        {"name": "Relational DataBase",
+                        "children":[
+                            {"name": "MySQL"}
+                        ]},
                     ]
                 },
                 {
-                    "name": "sports",
+                    "name": "Computer Fundamentals",
                     "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
+                            {"name": "Data Structures And Algorithms"},
+                            { "name": "Computer Networks" },
+                            { "name": "OOPs" },
+                            {"name": "DataBase Management System"},
+                            {"name": "Operating System"}
                     ]
                 },
                 {
-                    "name": "sports",
+                    "name": "Developer Tools",
                     "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
+                            {"name": "PostMan"},
+                            {"name": "Docker"},
+                            {"name": "Kubernetes"},
+                            { "name": "GIT" },
+                            { "name": "VS Code" },
+                            {"name": "Jira"},
+                            {"name": "SpringToolSuite(STS)"}
                     ]
                 }
             ]
+                
         };
 
         console.log(treeData);
